@@ -12,7 +12,7 @@ import requests
 import mysql.connector
 
 # Custom libraries
-from secrets import SECRETS
+from modules.secrets import SECRETS
 from modules.dbConn import *
 
 ########################
