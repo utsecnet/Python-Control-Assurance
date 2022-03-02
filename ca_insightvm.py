@@ -42,11 +42,11 @@ def ivm_get_scan_engines ():
     response = requests.get(url, auth=auth, headers=api_headers(), verify=False)
     response_json = response.json()
 
-	# Scan engines we dont care about and don't want to insert into the database 
+    # Scan engines we dont care about and don't want to insert into the database 
     blacklist_scan_engines = ['Rapid7 Hosted Scan Engine','Rapid7 Hosted','Default Engine Pool','Local scan engine']
     
-	# Process each object in the JSON, saving the data to variables, and 
-	# ultimatly writing it to our MySQL database
+    # Process each object in the JSON, saving the data to variables, and 
+    # ultimatly writing it to our MySQL database
 
     logging.debug('response: %s', response)
 
