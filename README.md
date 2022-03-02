@@ -26,6 +26,7 @@ There are a few pre-requisits in order to use this repo:
 2. I opt to run these scripts on the database server, but you can put them literally anywhere, so long as it has proper permissions to hit the APIs and connect to the MySQL server with proper GRANTS on all the right tables.
 3. (Recommended but not required) each security control should have its own API user account, not associated to a single human user.
 4. Python >= 3.7
+5. Set good permission on the Keys/secrets.py file.  This holds all of your API credentials.
 
 If you use any of these controls, you simply need to update the credentials within the **secrets.py** module. The scripts are well documented. Review each script to see what data is pulled from the API, and how it is ingested into the database.
 
