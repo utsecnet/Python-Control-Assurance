@@ -701,10 +701,10 @@ cleanUp = [table_scan_engines, table_site_scan, table_metrics_rollup]
 # ACTION!
 ########################
 
-#ivm_get_scan_engines()
-#ivm_get_sites()
-#ivm_get_tags()
-#ivm_get_assets()
+ivm_get_scan_engines()
+ivm_get_sites()
+ivm_get_tags()
+ivm_get_assets()
 ivm_metrics_rollup()
 
 # Run this last
