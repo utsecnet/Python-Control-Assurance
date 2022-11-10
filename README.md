@@ -1,7 +1,5 @@
 # Python - Control Assurance
 
-test
-
 ## Why did I create these scripts?
 
 My last organization had nearly 3 dozen security controls, each with their own web interfaces and reporting dashboards. Each seperate and un-integrated with each other (for the most part). I wanted a single interface to show me things like:
